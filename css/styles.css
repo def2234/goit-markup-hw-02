@@ -1,0 +1,277 @@
+/* цыет основного текста #757575 */
+
+/* вторичны цвет текста  #212121; */
+
+/* акцент #2196F3; */
+
+/* белый цвет #FFFFFF; */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color:#F5F4FA;
+    --secondary-background-studio:#2F303A;
+    --secondary-text-color: #000000;
+    
+}
+
+
+
+
+.list {
+    list-style: none;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+}
+
+.logo {
+    color: var(--accent-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    text-decoration: none;
+    
+}
+
+/* site nav */
+
+.nav-color {
+    color: var(--secondary-text-color);
+}
+
+
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    text-decoration: none;
+}
+
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+.site-nav .studio-link {
+    color: var(--accent-text-color);
+}
+
+.site-nav .portfolio-link {
+    color: var(--accent-text-color);
+}
+
+
+
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-text-color);
+}
+
+
+
+/* site title */
+
+.section {
+    background-color: var(--secondary-background-studio);
+}
+
+.section-title {
+    color: var(--primary-background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-title {
+    background: var(--accent-text-color);
+    color: var(--primary-background-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+/* .button-title:hover,
+.button-title:focus {
+    color: var(--accent-text-color)
+} */
+
+
+
+/* Portgolio buttons */
+
+.button-filter {
+    color: var(--title-text-color);
+    background: var(--secondary-background-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    
+}
+
+.button-filter:hover, 
+.button-filter:focus {
+    color: var(--accent-text-color);
+}
+
+/* advantages */
+
+.advantages-title {
+    color: var(--title-text-color);
+    
+}
+
+.list-title .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+   
+}
+
+/* information */
+
+.section-team {
+    background: var(--secondary-background-color);
+}
+
+.information-title {
+    color: var(--title-text-color);
+    
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* our team */
+.information-title .title {
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    
+    
+}
+
+.team-text {
+    
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+ 
+
+
+/* address */
+
+.address-list .link {
+    color: rgba(255, 255, 255, 0.6);
+    
+    font-style: normal;
+    
+    
+    letter-spacing: 0.03em;
+
+    text-decoration: none;
+}
+
+
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--primary-background-color);
+}
+
+/* .address-link .link {
+    color: var(--secondary-background-color);
+} */
+
+.address-color {
+    color: var(--primary-background-color);
+}
+
+
+/* Portfolio title */
+
+.portfolio-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+    
+    
+    
+}
+
+/* portfolio-text */
+
+.portfolio-text {
+    
+    
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    
+    
+}
+
+.list-link {
+    text-decoration: none;
+    color: var(--primary-text-color)
+}
+
+
+
+
